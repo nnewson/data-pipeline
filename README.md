@@ -1,6 +1,6 @@
-[![CI](https://github.com/nnewson/basic-data-pipeline/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/nnewson/basic-data-pipeline/actions/workflows/ci.yml)
+[![CI](https://github.com/nnewson/data-pipeline/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/nnewson/data-pipeline/actions/workflows/ci.yml)
 
-# Basic Data Pipeline
+# Data Pipeline
 
 This started as a simple sandbox to play with system-level components and how
 to glue them together with Python. It now serves as a local reference project
@@ -115,7 +115,7 @@ Clone and install dependencies:
 
 ```bash
 git clone <repo-url>
-cd basic-data-pipeline
+cd data-pipeline
 uv sync --all-extras
 ```
 
