@@ -57,7 +57,7 @@ services:
       retries: 5
 
   flink-jobmanager:
-    image: basic-data-pipeline-flink:2.3.0
+    image: data-pipeline-flink:2.3.0
     build:
       context: .
       dockerfile: flink.Dockerfile
@@ -79,7 +79,7 @@ services:
         parallelism.default: 4
 
   flink-taskmanager:
-    image: basic-data-pipeline-flink:2.3.0
+    image: data-pipeline-flink:2.3.0
     build:
       context: .
       dockerfile: flink.Dockerfile
